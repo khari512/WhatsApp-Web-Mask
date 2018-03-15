@@ -1,8 +1,12 @@
    
    //contains list of custom event handkers
+
+function registerEvents(){
+   
    document.getElementById("encryptBtn").addEventListener("click", encryptMesgs);
    document.getElementById("hideEmojiBtn").addEventListener("click", hideEmojis);
    document.getElementById("hideDelStatusBtn").addEventListener("click", hideMesgDeliveruStatusTicks);
+}
 
    function encryptMesgs(){
       console.log("custom btn click worked");
