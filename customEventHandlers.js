@@ -1,8 +1,9 @@
    
    //contains list of custom event handkers
+consoloe.log("customEventHandlers.js file loaded successfully");
 
 function registerEvents(){
-   
+   consoloe.log("inside registerEvents");
    document.getElementById("encryptBtn").addEventListener("click", encryptMesgs);
    document.getElementById("hideEmojiBtn").addEventListener("click", hideEmojis);
    document.getElementById("hideDelStatusBtn").addEventListener("click", hideMesgDeliveruStatusTicks);
